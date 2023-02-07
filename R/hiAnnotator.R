@@ -1660,7 +1660,7 @@ doAnnotation <-
 
     ## setup new columns to be added using NA and add the proper class ##
     newCols <- grep(colnam,names(res),value = TRUE),
-    mcols(sites.rd)[newCols] <- NA,
+    mcols(sites.rd)[newCols] <- 0,
     for (newCol in newCols) {
       mcols(sites.rd)[[newCol]] <- as(mcols(sites.rd)[[newCol]],
                                       class(res[[newCol]]))

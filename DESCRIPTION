@@ -3,6 +3,7 @@ Title: Functions for annotating GRanges objects
 Version: 1.27.1
 Date: 2021-07-27
 Author: Nirav V Malani <malnirav@gmail.com>
+Encoding: UTF-8
 Maintainer: Nirav V Malani <malnirav@gmail.com>
 Description: hiAnnotator contains set of functions which allow users to
     annotate a GRanges object with custom set of annotations. The
@@ -39,4 +40,4 @@ Suggests:
     markdown
 biocViews: Software, Annotation
 LazyLoad: yes
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
